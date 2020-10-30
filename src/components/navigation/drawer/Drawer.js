@@ -50,7 +50,7 @@ class Drawer extends React.Component {
 
  
   return (
-      <React.Fragment>
+      <Fragment>
          <nav className={cls.join(' ')}>
              <ul>
                  {this.renderLinks(links)}
@@ -58,7 +58,7 @@ class Drawer extends React.Component {
          </nav>
         { this.props.isOpen? <Blackdrop rollUp={this.props.rollUp}/>:null}
     
-      </React.Fragment>
+      </Fragment>
    
   )
  }
